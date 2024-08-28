@@ -1,2 +1,2 @@
 # Portafolio
-Mi perfil Proesional
+Mi perfil Profesional

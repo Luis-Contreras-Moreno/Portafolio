@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTR-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="shortcut icon" href="/assist/logo-programador.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">   
+    <link rel="stylesheet" href="/css/index.css"> 
+    <link rel="shortcut icon" href="/img/Logo.png" type="image/x-icon"
+    
 </head>
 <body class="container">
     <header class="encabezado">
         <div class="indicador">
             <nav class="indices">
-                <a href="#">HOME</a>
-                <a href="#perfil-texto">ABOUT ME</a>
-                <a href="#experiencia">PROJECTS</a>
-                <a href="#">EDUCATION</a>
+                <a href="#">Inicio</a>
+                <a href="#perfil-texto">Acerca de mi</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#">Habilidades</a>
             </nav>
         </div>
         
@@ -30,76 +32,104 @@
     <main id="contenedor">
         <section class="perfil-profesional">
             <div class="perfil-imagen">
-                <img src="/img/perfil_projesional.png" alt="">
+                <video src="/img/administración.mp4" autoplay loop>
             </div>
             <div id="perfil-texto">
-                <div class="title"><h4>ABOUT ME</h4></div>
-                <p>I am an English teacher from Colombia who has worked in many different areas in my life. 
-                    I have worked as a customer service representative for companies in the U.S; 
-                    the most recent experience was obtained working for the telecomunication Company named Verizon.
-                    After that, I moved to the transportantion field and developed wide tasks for the Track and Trace department
-                    of a recognized company named ALG Worldwide. And of course, I have worked as an English teacher in Colombia.                         I am always trying to learn new things and trying to grow proffesionally. That is why I am currently studying Web developing,
-                    I am constantly looking for new opportonuties that might challenge my skills and that will allow me to improve 
-                    my life quality. I consider myself a fast learner, responsible and focused person and I have learned that all experience
-                    is valuable and can be used in any moment during our life.
+                <div class="title"><h4>ACERCA DE MI</h4></div>
+                <p>Soy un profesional del idioma Ingles, graduado de la universidad de Cárdoba. Entre mis cualidades 
+                    se destacan mi responsabilidad, mi forma de aprendizaje rápido, autonomo y mi deseo de salir adelante como profesional y como 
+                    persona. Actualmente estoy creciendo en el campo de la programacion enfocandome principalmente en el lenguaje de Python,
+                    conocimientos basicos en html y css. 
                 </p>
             </div>
         </section>
         <section id="experiencia">
             <div class="title-1"><h4>EXPERIENCE</h4></div>
-            <div class="exp">
-                <div class="exper">
-                    <h5>2024 - STUDYING WEB DEVELOPING - ENJOI</h5>
-                    <img src="/img/enjoy.png" alt="">
-                    <p>Student of Web developing since June, 2024. I am able to develop a program
-                        that fit the customers' needs with the highest standars. 
-                    </p>
+            <div class="linea" id="linea"></div>
+            <div class="exp" id="exp">
+                <div class="logos-experiencias" id="logos-experienciasone"><img src="/img/enjoi.png"></div>
+                <div class="logos-experiencias" id="logos-experienciastwo"><img src="/img/ALGLOGO.jpg"></div>
+                <div class="logos-experiencias" id="logos-experienciasthree"><img src="/img/verizon1.png"></div>
+                <div class="logos-experiencias" id="logos-experienciasfour"><img src="/img/Bestbuy.png"></div>
+            </div>
+           
+            <div class="texto-experiencia"  id="texto-experienciaone">
+                <div id="titulo-exp">
+                    <h3>ENJOI</h3>
+                    <img src="/img/enjoy.png">
+                    <p>2024 - CURRENTLY</p>
                 </div>
-                <div class="exper">
-                    <h5>2022 - CURRENTLY - TRACK AND TRACE AGENT - ALG WORLDWIDE</h5>
-                    <img src="/img/ALG.jpeg" alt="">
-                    <p>I was in charge of the East Coast from the track and trace department. 
-                        Within my functions, I had to locate the freight when it was lost,
-                        track a daily board and make sure all the shipments get delivered,
-                        update the customer service deparment in case any issue. 
-                    </p>
-                </div>
-                <div class="exper">
-                    <h5>2021 - 2022 - CUSTOMER SERVICE REPRESENTATIVE - VERIZON</h5>
-                    <img src="/img/verizon.png" alt="">
-                    <p>Student of Web developing since June, 2024. I am able to develop a program
-                        that fit the customers' needs with highest standars. 
-                    </p>
-                </div>
-                <div class="exper">
-                    <h5>2020 - 2021 - CUSTOMER SERVICE REPRESENTATIVE - BESTBUY</h5>
-                    <img src="/img/best-buy.jpg" alt="">
-                    <p>Student of Web developing since June, 2024. I am able to develop a program
-                        that fit the customers' needs with highest standars. 
+                <div class="texto-exp">
+                    <p> Inicie mi carrera en la programacion desde Junio del año 2024. Actualmente me encuentro estudiando desarrollo WEB
+                        en Enjoi, quien me esta capacitando con docentes de gran nivel con quienes de la mano voy avanzando y conociendo
+                        mas y mas sobre el mundo de la programacion.  
                     </p>
                 </div>
             </div>
+            <div class="texto-experiencia"  id="texto-experienciatwo">
+                <div id="titulo-exp">
+                    <h3>ALG WORLDWIDE</h3>
+                    <img src="/img/ALG Logo.png">
+                    <p>2022 - CURRENTLY</p>
+                </div>
+                <div class="texto-exp">
+                    <p>Durante un par de años he trabajado en ALG Worldwide, una empresa de transporte de carga
+                        localizada en Chicago, IL. Entre mis funciones se encuentran la de rastreo de carga, actualizacion
+                        de la base de datos, localizacion de cargas perdidas, etc. 
+                    </p>
+                </div>
+            </div>
+            <div class="texto-experiencia"  id="texto-experienciathree">
+                <div id="titulo-exp">
+                    <h3>VERIZON</h3>
+                    <img src="/img/verizon.png">
+                    <p>2021 - 2022</p>
+                </div>
+                <div class="texto-exp">
+                    <p>Brindar las mejores solciones para los clientes de esta prestigiosa empresa de telecomucación
+                        era mi mayor función. Desempeñaba labores tecnicas basicas para solucionar problemas de los
+                        dispositivos móviles de los clientes. Resolvia dudas de facturacion y ofrecia servicios adicionales
+                        para una mejor experencia con el servicio.
+                    </p>
+                </div>
+            </div>
+            <div class="texto-experiencia"  id="texto-experienciafour">
+                <div id="titulo-exp">
+                    <h3>BEST BUY</h3>
+                    <img src="/img/ALG Logo.png">
+                    <p>2020 - 2021</p>
+                </div>
+                <div class="texto-exp">
+                    <p>
+                        En esta oportunidad, fui el responsable de gestionar que los clientes de
+                    </p>
+                </div>
+            </div>
+            <button class="back" id="back">Back</button>
         </section>
-        <section class="grafica">
-            <h4>Idiomas</h4>
-        </section>
+        <section class="graficos"><div id="chart-container"></div></section>
+        
+
     </main>
-    <footer class="footer">
+    <section class="contactos">
         <div class="icono">
             <a href="https://www.facebook.com/luisangel.contrerasmoreno.35"><img src="/img/facebook.png" alt="logo-facebook"></a>
         </div>
         <div class="icono">
-            <a href="https://www.instagram.com/luisangel6459/"><img src="/img/instagram.webp" alt="logo-facebook"></a>
+            <a href="https://www.instagram.com/luisangel6459/"><img src="/img/instagram2.png" alt="logo-facebook"></a>
         </div>
         <div class="icono">
             <a href="https://github.com/Luis-Contreras-Moreno"><img src="/img/git hub.png" alt="logo-facebook"></a>
         </div>
         <div class="icono">
-            <a href="https://wa.me/qr/MQ6XORJGO575C1"><img src="/img/whatsapp.webp" alt="logo-facebook"></a>
+            <a href="https://wa.me/qr/MQ6XORJGO575C1"><img src="/img/whatsapp.jpg" alt="logo-facebook"></a>
         </div>
-    </footer>
+    </section>
 
 
+<script src="java/java.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<script src="./java/index.js"></script>
 
 </body>
 </html>

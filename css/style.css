@@ -202,7 +202,7 @@ h4 {
 }
 
 p {
-    padding: 25px;
+    padding: 50px;
     font-size: 20px;
     background-color: rgba(59, 170, 39, 0.866);
     border-radius: 40% 30rem 20rem;
@@ -235,7 +235,7 @@ p {
     display: grid;
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 80px;
 }
 
 .title-1 {
@@ -277,7 +277,7 @@ p {
     margin: 12px 0;
     position: relative;
     width: 100%;
-    height: 380px;
+    height: 400px;
     overflow: hidden;
 }
 
@@ -295,11 +295,41 @@ p {
 
 .texto-exp {
     margin-top: 60px;
+    position: relative;
+}
+
+#titulo-exp h3{
+    margin: 10px;
+    width: 80%;
+}
+
+#titulo-exp h6 {
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+#titulo-exp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+
 }
 
 #titulo-exp img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 4px green;
+    margin: 4px;
+    
+}
+
+#titulo-exp img:hover {
+    transition: transform .3s;
+    transform: scale(1.15);
 }
 
 .texto-experiencia.clase-cambio{
@@ -420,3 +450,26 @@ h5 {
     transform: scale(1.2);
     box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.357);
 }
+
+footer {
+    width: 100%;
+    display: flex;
+    height: 70px;
+    position: relative;
+    top: 840px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2, 43, 146, 0.574) 9%, rgba(6, 6, 213, 0.443) 51%, rgba(2, 0, 36, 0.778) 87%), url(/img/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;  
+    text-shadow: 7px 7px 7px rgb(1, 3, 46);
+}
+

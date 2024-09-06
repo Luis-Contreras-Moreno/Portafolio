@@ -8,53 +8,44 @@ var app = {};
 var option;
 
 option = {
+  tooltip: {
+    trigger: 'item'
+  },
+  legend: {
+    top: '5%',
+    left: 'center'
+  },
   series: [
     {
-      type: 'gauge',
-      progress: {
-        show: true,
-        width: 18
+      name: 'Nivel',
+      type: 'pie',
+      radius: ['40%', '70%'],
+      avoidLabelOverlap: false,
+      itemStyle: {
+        borderRadius: 10,
+        borderColor: '#fff',
+        borderWidth: 2
       },
-      axisLine: {
-        lineStyle: {
-          width: 18
+      label: {
+        show: false,
+        position: 'center'
+      },
+      emphasis: {
+        label: {
+          show: true,
+          fontSize: 40,
+          fontWeight: 'bold'
         }
       },
-      axisTick: {
+      labelLine: {
         show: false
-      },
-      splitLine: {
-        length: 15,
-        lineStyle: {
-          width: 2,
-          color: '#999'
-        }
-      },
-      axisLabel: {
-        distance: 25,
-        color: '#999',
-        fontSize: 20
-      },
-      anchor: {
-        show: true,
-        showAbove: true,
-        size: 25,
-        itemStyle: {
-          borderWidth: 10
-        }
-      },
-      title: {
-        show: false
-      },
-      detail: {
-        valueAnimation: true,
-        fontSize: 80,
-        offsetCenter: [0, '70%']
       },
       data: [
-        {
-          value: 70
-        }
+        { value: 1048, name: 'ENGLISH' },
+        { value: 735, name: 'HTML' },
+        { value: 580, name: 'CSS' },
+        { value: 484, name: 'PYTHON' },
+        { value: 300, name: 'JAVASCRIPT' }
       ]
     }
   ]

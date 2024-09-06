@@ -9,13 +9,13 @@
     
 </head>
 <body class="container">
-    <header class="encabezado">
+    <header class="encabezado" id="encabezado">
         <div class="indicador">
             <nav class="indices">
-                <a href="#">Inicio</a>
-                <a href="#perfil-texto">Acerca de mi</a>
-                <a href="#experiencia">Experiencia</a>
-                <a href="#">Habilidades</a>
+                <a href="#encabezado">HOME</a>
+                <a href="#perfil-texto">ABOUT ME</a>
+                <a href="#experiencia">EXPERIENCE</a>
+                <a href="#title-1">SKILLS</a>
             </nav>
         </div>
         
@@ -35,11 +35,11 @@
                 <video src="/img/administración.mp4" autoplay loop>
             </div>
             <div id="perfil-texto">
-                <div class="title"><h4>ACERCA DE MI</h4></div>
-                <p>Soy un profesional del idioma Ingles, graduado de la universidad de Cárdoba. Entre mis cualidades 
-                    se destacan mi responsabilidad, mi forma de aprendizaje rápido, autonomo y mi deseo de salir adelante como profesional y como 
-                    persona. Actualmente estoy creciendo en el campo de la programacion enfocandome principalmente en el lenguaje de Python,
-                    conocimientos basicos en html y css. 
+                <div class="title"><h4>ABOUT ME</h4></div>
+                <p>
+                    I am a profesional English Teacher, graduated from the University of Cordoba. I considered myself a responsible, fast and self learner, dedicated and honest person
+                    who is looking to grow as a person and proffesionally. I expect in 5 years having my own company focused on the web development field. I know that will not be an easy job. However, 
+                    another of my main skills is that I am hard worker and I am working everyday to gathered the knowledge and the skills to make that happen.
                 </p>
             </div>
         </section>
@@ -57,39 +57,41 @@
                 <div id="titulo-exp">
                     <h3>ENJOI</h3>
                     <img src="/img/enjoy.png">
-                    <p>2024 - CURRENTLY</p>
+                    <h6>2024 - CURRENTLY</h6>
                 </div>
                 <div class="texto-exp">
-                    <p> Inicie mi carrera en la programacion desde Junio del año 2024. Actualmente me encuentro estudiando desarrollo WEB
-                        en Enjoi, quien me esta capacitando con docentes de gran nivel con quienes de la mano voy avanzando y conociendo
-                        mas y mas sobre el mundo de la programacion.  
+                    <p> 
+                        I started this dream of being a Web Developer since June 2024. Enjoi, the programming academy, has given me the oportunity 
+                        to stop dreaming and make it real. I am currently focusing on the Python Language however, javascript, HTML and CSS are some of the 
+                        skill we are working hard on too. 
                     </p>
                 </div>
             </div>
             <div class="texto-experiencia"  id="texto-experienciatwo">
                 <div id="titulo-exp">
-                    <h3>ALG WORLDWIDE</h3>
+                    <h3>LOGISTIC COORDINATOR - ALG WORLDWIDE</h3>
                     <img src="/img/ALG Logo.png">
-                    <p>2022 - CURRENTLY</p>
+                    <h6>2022 - CURRENTLY</h6>
                 </div>
                 <div class="texto-exp">
-                    <p>Durante un par de años he trabajado en ALG Worldwide, una empresa de transporte de carga
-                        localizada en Chicago, IL. Entre mis funciones se encuentran la de rastreo de carga, actualizacion
-                        de la base de datos, localizacion de cargas perdidas, etc. 
+                    <p>
+                        During the last couple of years I have been working in the freight transportation field. 
+                        It has been a good experience facing the challenge world of transporting freight from once state to another in the US. 
+                        "ALG WORLDWIDE" is the commpany that has trusted my skills and has allowed me to grow inside the Company. 
                     </p>
                 </div>
             </div>
             <div class="texto-experiencia"  id="texto-experienciathree">
                 <div id="titulo-exp">
-                    <h3>VERIZON</h3>
+                    <h3>CUSTOMER SERVICE AGENT - VERIZON</h3>
                     <img src="/img/verizon.png">
-                    <p>2021 - 2022</p>
+                    <h6>2021 - 2022</h6>
                 </div>
                 <div class="texto-exp">
-                    <p>Brindar las mejores solciones para los clientes de esta prestigiosa empresa de telecomucación
-                        era mi mayor función. Desempeñaba labores tecnicas basicas para solucionar problemas de los
-                        dispositivos móviles de los clientes. Resolvia dudas de facturacion y ofrecia servicios adicionales
-                        para una mejor experencia con el servicio.
+                    <p>
+                        Meeting customers via phone call to enhance their experience toward the service provided by "Verizon", the telecomunication 
+                        Company, was my main goal. Within my duties, I had to make sure the customer undertand their bills, their changes on the 
+                        mobile plans etc.
                     </p>
                 </div>
             </div>
@@ -97,20 +99,21 @@
                 <div id="titulo-exp">
                     <h3>BEST BUY</h3>
                     <img src="/img/ALG Logo.png">
-                    <p>2020 - 2021</p>
+                    <h6>2020 - 2021</h6 >
                 </div>
                 <div class="texto-exp">
                     <p>
-                        En esta oportunidad, fui el responsable de gestionar que los clientes de
+                        In this opportunity, I worked as a customer service agent for Best Buy, one of the biggest stores in the US. 
+                        I was responsible of customers' satisfactions toward their appliances, electronic devices and technology purchases. 
                     </p>
                 </div>
             </div>
             <button class="back" id="back">Back</button>
         </section>
-        <section class="graficos"><div id="chart-container"></div></section>
-        
-
+        <div class="title-1" id="title-1"><h4>SKILLS</h4></div>
+        <div id="chart-container"></div>
     </main>
+    
     <section class="contactos">
         <div class="icono">
             <a href="https://www.facebook.com/luisangel.contrerasmoreno.35"><img src="/img/facebook.png" alt="logo-facebook"></a>
@@ -125,11 +128,14 @@
             <a href="https://wa.me/qr/MQ6XORJGO575C1"><img src="/img/whatsapp.jpg" alt="logo-facebook"></a>
         </div>
     </section>
+    <footer>
+        <h5>Developed by Luis Contreras</h5>
+    </footer>
 
 
 <script src="java/java.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
-<script src="./java/index.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<script src="java/index.js"></script>
 
 </body>
 </html>
